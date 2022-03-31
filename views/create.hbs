@@ -1,0 +1,16 @@
+{{> header}}
+<div class="container" style="width: 30%; margin: 100px auto 0 auto">
+	<form action="/tasks/" method="POST">
+		<div class="mb-3">
+			<label class="form-label">Tarefa:</label>
+			<input type="text" class="form-control" id="title" name="title" value="" placeholder="Nome da Tarefa">
+		</div>
+		<div class="mb-3">
+			<label class="form-label">Descrição:</label>
+			<input type="text" class="form-control" id="description" name="description" value=""
+				placeholder="Descrição da Tarefa">
+		</div>
+		<button type="submit" class="btn btn-primary">Cadastrar Nova Tarefa!</button>
+	</form>
+</div>
+{{> footer}}
